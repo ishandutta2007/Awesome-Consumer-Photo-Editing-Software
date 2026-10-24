@@ -30,13 +30,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global photo editing software market is valued at approximately $1.2B to $12B+ (growing at a CAGR of 5%–10%), driven by rapid adoption of mobile content creation, social media photography, and generative AI workflows. The sector exhibits a distinct hybrid concentration structure: highly concentrated and oligopolistic at the professional desktop tier (dominated by Adobe with >40%–60% market share), yet moderately to heavily fragmented across consumer, web, and mobile tiers where specialized AI tools, accessible desktop suites, and open-source solutions compete actively for consumer attention.
 
 
 
@@ -44,25 +48,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Adobe Photoshop Elements 2026](https://www.adobe.com/products/photoshop-elements.html)** | Consumer-friendly photo editor with guided edits, AI enhancements, and a 3-year license. | **US$99.99** one-time (3-year term license; non-renewing, expires after 3 years) . Bundle with Premiere Elements: **US$149.99** . | **No free tier**. 30-day trial available via Adobe. |
-
-| **[Corel PaintShop Pro](https://www.paintshoppro.com/)** | Windows photo editor with layers, RAW support, and one-time purchase. | **~$72–$90** one-time (PaintShop Pro X9 / X9 Ultimate) . Ultimate includes extra creative content. | **No permanent free tier**. 30-day free trial available. |
-
-| **[CyberLink PhotoDirector 2026](https://www.cyberlink.com/)** | Consumer photo editor with AI tools, layers, and subscription or perpetual options. | **€99.99** one-time (PhotoDirector 2026); **€39.99–€99.99/year** for 365 subscription tiers . | **No permanent free tier**. Trial available via CyberLink. |
-
-| **[Affinity Photo (now free)](https://affinity.serif.com/)** | **Now completely free.** Professional-grade photo editor unified with Designer and Publisher into a single app. | **Free** (Canva made Affinity free forever in late 2025; unified app includes photo, vector, and layout tools) . | **Fully free**: No subscription, no trial expiration, professional features included . |
-
-| **[Pixelmator Pro](https://apps.apple.com/app/pixelmator-pro/id1289583905)** | Mac-only professional photo editor with machine learning enhancements. | **$49.99** one-time (App Store); also available via **Apple Creator Studio** at $12.99/month or $129/year . | **No free tier** for perpetual license. One-month trial available for Creator Studio subscription . |
-
-| **[DxO PhotoLab Essential](https://shop.dxo.com/)** | RAW photo editor with optical corrections and denoising. | **~€159.99** one-time (Essential); upgrade pricing ~€84.99 . | **No permanent free tier**. 30-day trial available via DxO. |
-
-| **[ON1 Effects 2026](https://www.on1.com/products/effects/)** | Effects plugin and standalone editor with filters, presets, and AI tools. | **US$59.99** one-time (sale price; regular $69.99) . | **No free tier**. Trial available via ON1. |
-
-| **[Skylum Luminar Neo](https://skylum.com/luminar)** | AI-powered photo editor with sky replacement, relighting, and creative tools. | **~₹4,999–₹6,999** one-time (perpetual license tiers; regional pricing varies) . | **No free tier**. 7-day free trial with full access available. |
+| Product | Description | Company Scale (Valuation / Revenue) | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Pixelmator Pro](https://apps.apple.com/app/pixelmator-pro/id1289583905)** | Mac-only professional photo editor with machine learning enhancements. | **$5.07 Trillion** Market Cap (Parent: Apple Inc.) | **$49.99** one-time purchase on Mac App Store (or **$12.99/mo** / **$129/yr** via Apple Creator Studio bundle) | **No permanent free tier**; 1-month free trial available via Apple Creator Studio subscription (Mac App Store direct purchase has no free trial) |
+| **[Adobe Photoshop Elements 2026](https://www.adobe.com/products/photoshop-elements.html)** | Consumer-friendly photo editor with guided edits, AI enhancements, and a 3-year license. | **~$102 Billion** Market Cap (Adobe Inc.) | **$99.99** one-time (3-year term non-renewing license) or **$149.99** bundled with Premiere Elements | **No permanent free tier**; 7-day fully functional free trial with full feature access and no credit card required |
+| **[Affinity Photo (now free)](https://affinity.serif.com/)** | **Now completely free.** Professional-grade photo editor unified with Designer and Publisher into a single app. | **~$35 Billion** Valuation (Parent: Canva) | **Free** ($0.00 forever; Canva unified Affinity Photo, Designer, and Publisher with full capabilities) | **Free forever with no feature limits**: 100% full desktop access across Mac/Windows/iPad with unlimited exports and zero expiration |
+| **[Corel PaintShop Pro](https://www.paintshoppro.com/)** | Windows photo editor with layers, RAW support, and one-time purchase. | **~$1 Billion+** Valuation / ~$180M+ Rev (Alludo / KKR) | **$79.99** one-time (PaintShop Pro standard tier) or **$99.99** for Ultimate edition | **No permanent free tier**; 30-day fully functional free trial with full feature access and no watermark |
+| **[CyberLink PhotoDirector 2026](https://www.cyberlink.com/)** | Consumer photo editor with AI tools, layers, and subscription or perpetual options. | **~$142 Million** Market Cap (CyberLink Corp., TPE: 5203) | **$39.99/yr** (PhotoDirector 365 starting plan) or **€99.99** ($99.99) one-time perpetual license | **Permanent free tier limited**: Desktop Essential allows max 2 photo exports/day in Expert mode with premium AI tools disabled from export; 30-day promotional trial for full 365 |
+| **[Skylum Luminar Neo](https://skylum.com/luminar)** | AI-powered photo editor with sky replacement, relighting, and creative tools. | **~$50–$60 Million** Valuation / ~$18M Rev (Skylum) | **$11.95/mo** or **$79/yr** starting tier (or **$199** one-time perpetual license) | **No permanent free tier**; 7-day fully functional free trial with complete access to core tools and extensions |
+| **[DxO PhotoLab Essential](https://shop.dxo.com/)** | RAW photo editor with optical corrections and denoising. | **~$50 Million** Valuation / ~$16M Rev (DxO Labs) | **$139** one-time (PhotoLab Essential edition) or **$229** one-time for Elite edition | **No permanent free tier**; 30-day unrestricted free trial with all Elite features fully unlocked and no credit card required |
+| **[ON1 Effects 2026](https://www.on1.com/products/effects/)** | Effects plugin and standalone editor with filters, presets, and AI tools. | **~$10–$15 Million** Valuation / ~$3.5M Rev (ON1, Inc.) | **$59.99** one-time purchase (standalone/plugin tier; discounted from $69.99 regular price) | **No permanent free tier**; 30-day fully functional free trial with zero watermark and no credit card required |
 
 
 
