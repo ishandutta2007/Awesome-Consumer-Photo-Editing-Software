@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Consumer-Photo-Editing-Software?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Consumer-Photo-Editing-Software?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Consumer-Photo-Editing-Software?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -72,36 +72,36 @@ All pricing and free trial terms are verified against current tier offerings. Sa
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the finest free and open-source software (FOSS) alternatives to proprietary photo editing suites. Repositories are **sorted in descending order by GitHub star count**:
+Explore the finest free and open-source software (FOSS) alternatives to proprietary photo editing suites. Repositories are **sorted in descending order by GitHub Stars_Count**:
 
-- **[Upscayl](https://github.com/upscayl/upscayl)** [![GitHub Stars](https://img.shields.io/github/stars/upscayl/upscayl?style=social&color=white)](https://github.com/upscayl/upscayl/stargazers)  
+- **[Upscayl](https://github.com/upscayl/upscayl)** [![GitHub_Stars](https://img.shields.io/github/stars/upscayl/upscayl?style=social&color=white)](https://github.com/upscayl/upscayl/stargazers)  
   ⚡ **The Free and Open Source AI Image Upscaler.** AGPL-3.0 licensed. Cross-platform desktop tool using deep learning models (Real-ESRGAN, Vulkan-accelerated) to sharpen, upscale, and restore low-resolution photos without cloud servers. Ideal for restoring compressed smartphone photos and historic prints locally.
 
-- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
+- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub_Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
   📷 **The Open-Source Photography Workflow & RAW Developer.** GPL-3.0 licensed. Non-destructive, scene-referred editing pipeline featuring tethered shooting, color calibration, and GPU acceleration. The premier open-source alternative to Adobe Lightroom.
 
-- **[Krita](https://github.com/KDE/krita)** [![GitHub Stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
+- **[Krita](https://github.com/KDE/krita)** [![GitHub_Stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
   🎨 **The Digital Painting & Creative Image Suite.** GPL-3.0 licensed. Renowned for its world-class brush engine, color management, vector layering, and non-destructive filter layers. Outstanding for creative compositing, retouching, and concept art.
 
-- **[GIMP](https://github.com/GNOME/gimp)** [![GitHub Stars](https://img.shields.io/github/stars/GNOME/gimp?style=social&color=white)](https://github.com/GNOME/gimp/stargazers)  
+- **[GIMP](https://github.com/GNOME/gimp)** [![GitHub_Stars](https://img.shields.io/github/stars/GNOME/gimp?style=social&color=white)](https://github.com/GNOME/gimp/stargazers)  
   🖌️ **The Full-Featured GNU Image Manipulation Standard.** GPL-3.0 licensed. The quintessential Photoshop alternative. **GIMP 3.0** brings non-destructive editing, modern color management (GEGL), improved PSD handling, and support for modern formats like JPEG XL and WebP.
 
-- **[chaiNNer](https://github.com/chaiNNer-org/chaiNNer)** [![GitHub Stars](https://img.shields.io/github/stars/chaiNNer-org/chaiNNer?style=social&color=white)](https://github.com/chaiNNer-org/chaiNNer/stargazers)  
+- **[chaiNNer](https://github.com/chaiNNer-org/chaiNNer)** [![GitHub_Stars](https://img.shields.io/github/stars/chaiNNer-org/chaiNNer?style=social&color=white)](https://github.com/chaiNNer-org/chaiNNer/stargazers)  
   🔗 **Flowchart / Node-Based Image Processing Architecture.** GPL-3.0 licensed. Intuitive node-graph editor for chaining super-resolution models, face restoration, background removal, color grading, and batch photo adjustments.
 
-- **[RawTherapee](https://github.com/RawTherapee/RawTherapee)** [![GitHub Stars](https://img.shields.io/github/stars/RawTherapee/RawTherapee?style=social&color=white)](https://github.com/RawTherapee/RawTherapee/stargazers)  
+- **[RawTherapee](https://github.com/RawTherapee/RawTherapee)** [![GitHub_Stars](https://img.shields.io/github/stars/RawTherapee/RawTherapee?style=social&color=white)](https://github.com/RawTherapee/RawTherapee/stargazers)  
   🔬 **Granular RAW Photo Converter & Processing Pipeline.** GPL-3.0 licensed. Provides high-end demosaicing algorithms (AMaZE, RCD), advanced sharpening (RL deconvolution), and CIE Color Appearance Models for unmatched photo fidelity.
 
-- **[Pinta](https://github.com/PintaProject/Pinta)** [![GitHub Stars](https://img.shields.io/github/stars/PintaProject/Pinta?style=social&color=white)](https://github.com/PintaProject/Pinta/stargazers)  
+- **[Pinta](https://github.com/PintaProject/Pinta)** [![GitHub_Stars](https://img.shields.io/github/stars/PintaProject/Pinta?style=social&color=white)](https://github.com/PintaProject/Pinta/stargazers)  
   ✏️ **Lightweight Cross-Platform Drawing and Image Retouching.** MIT licensed. Modeled after Paint.NET, offering a fast, clean interface with layers, unlimited undo history, and over 35 color adjustments and special effects.
 
-- **[Ansel](https://github.com/aurelienpierreeng/ansel)** [![GitHub Stars](https://img.shields.io/github/stars/aurelienpierreeng/ansel?style=social&color=white)](https://github.com/aurelienpierreeng/ansel/stargazers)  
+- **[Ansel](https://github.com/aurelienpierreeng/ansel)** [![GitHub_Stars](https://img.shields.io/github/stars/aurelienpierreeng/ansel?style=social&color=white)](https://github.com/aurelienpierreeng/ansel/stargazers)  
   🎞️ **Streamlined Scene-Referred RAW Photo Editor.** GPL-3.0 licensed. A focused fork of Darktable designed to simplify digital asset management and deliver robust, colorimetrically accurate color grading without bloat.
 
-- **[digiKam](https://github.com/KDE/digikam)** [![GitHub Stars](https://img.shields.io/github/stars/KDE/digikam?style=social&color=white)](https://github.com/KDE/digikam/stargazers)  
+- **[digiKam](https://github.com/KDE/digikam)** [![GitHub_Stars](https://img.shields.io/github/stars/KDE/digikam?style=social&color=white)](https://github.com/KDE/digikam/stargazers)  
   🗂️ **Professional Photo Management & Editing Suite.** GPL-2.0 licensed. Advanced digital asset manager featuring facial recognition, geolocation mapping, auto-tagging, and a comprehensive built-in image editor for batch adjustments.
 
-- **[PhotoFlare](https://github.com/PhotoFlare/photoflare)** [![GitHub Stars](https://img.shields.io/github/stars/PhotoFlare/photoflare?style=social&color=white)](https://github.com/PhotoFlare/photoflare/stargazers)  
+- **[PhotoFlare](https://github.com/PhotoFlare/photoflare)** [![GitHub_Stars](https://img.shields.io/github/stars/PhotoFlare/photoflare?style=social&color=white)](https://github.com/PhotoFlare/photoflare/stargazers)  
   ✨ **Simple Yet Powerful Community Image Editor.** GPL-3.0 licensed. Built on C++ and Qt, offering a clean, user-friendly interface inspired by PhotoFiltre with batch photo processing, filters, and color correction tools.
 
 ---
@@ -149,3 +149,12 @@ Thank you for being part of the creative and open-source community! 🙌
 <p align="center">
   <b>Built with ❤️ for photographers, casual editors, and everyone who loves creative freedom without subscription walls.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Consumer-Photo-Editing-Software&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Consumer-Photo-Editing-Software_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Consumer-Photo-Editing-Software_growth.svg">
+  </picture>
+</a>
