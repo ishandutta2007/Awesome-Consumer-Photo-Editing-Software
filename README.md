@@ -72,7 +72,7 @@ All pricing and free trial terms are verified against current tier offerings. Sa
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the finest free and open-source software (FOSS) alternatives to proprietary photo editing suites. Repositories are **sorted in descending order by GitHub Stars_Count**:
+Explore the finest free and open-source software (FOSS) alternatives to proprietary photo editing suites. Repositories are **sorted in descending order by GitHub_Stars_Count**:
 
 - **[Upscayl](https://github.com/upscayl/upscayl)** [![GitHub_Stars](https://img.shields.io/github/stars/upscayl/upscayl?style=social&color=white)](https://github.com/upscayl/upscayl/stargazers)  
   ⚡ **The Free and Open Source AI Image Upscaler.** AGPL-3.0 licensed. Cross-platform desktop tool using deep learning models (Real-ESRGAN, Vulkan-accelerated) to sharpen, upscale, and restore low-resolution photos without cloud servers. Ideal for restoring compressed smartphone photos and historic prints locally.
