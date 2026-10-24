@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e112a" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" rx="16" fill="url(#gridPattern)" />
+
+  <!-- Dynamic / Animated Background Orbs (Behind Foreground Content) -->
+  <g opacity="0.6">
+    <circle cx="200" cy="90" r="140" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="cx" values="180;240;180" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="90;130;90" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.35;0.6;0.35" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1020" cy="310" r="160" fill="#c084fc" filter="url(#glow)">
+      <animate attributeName="cx" values="1020;960;1020" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="310;260;310" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.35;0.55;0.35" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="380" r="110" fill="#f43f5e" filter="url(#glow)">
+      <animate attributeName="r" values="90;130;90" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.25;0.5;0.25" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Subtle Dynamic Wave Line in Midground -->
+  <path d="M 0 350 Q 300 310, 600 340 T 1200 320" fill="none" stroke="url(#titleGrad)" stroke-width="2" stroke-opacity="0.4">
+    <animate attributeName="d"
+      values="M 0 350 Q 300 310, 600 340 T 1200 320;
+              M 0 330 Q 300 360, 600 320 T 1200 350;
+              M 0 350 Q 300 310, 600 340 T 1200 320"
+      dur="12s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Foreground Content: Header Tag / Badge -->
+  <g transform="translate(600, 65)">
+    <rect x="-140" y="-18" width="280" height="36" rx="18" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+    <circle cx="-112" cy="0" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="-95" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e2e8f0" letter-spacing="1.5">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- Main Foreground Title -->
+  <text x="600" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="url(#titleGrad)" letter-spacing="-0.5">
+    Awesome Consumer Photo Editing Software
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+    The Definitive Guide to Top SaaS Suites, AI Enhancers &amp; Open-Source Alternatives
+  </text>
+
+  <!-- Interactive / Floating Feature Pills in Lower Foreground -->
+  <g transform="translate(600, 265)">
+    <!-- Pill 1: SaaS Leaders -->
+    <g transform="translate(-400, 0)">
+      <rect x="0" y="0" width="180" height="48" rx="24" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="90" y="29" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f8fafc">✨ Top SaaS Editors</text>
+    </g>
+
+    <!-- Pill 2: Open-Source Tools -->
+    <g transform="translate(-195, 0)">
+      <rect x="0" y="0" width="180" height="48" rx="24" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" />
+      <text x="90" y="29" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f8fafc">💻 Open Source FOSS</text>
+    </g>
+
+    <!-- Pill 3: AI & Neural Upscaling -->
+    <g transform="translate(15, 0)">
+      <rect x="0" y="0" width="185" height="48" rx="24" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.2" />
+      <text x="92" y="29" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f8fafc">🧠 AI &amp; Neural Retouch</text>
+    </g>
+
+    <!-- Pill 4: Zero Subscription / RAW -->
+    <g transform="translate(225, 0)">
+      <rect x="0" y="0" width="175" height="48" rx="24" fill="url(#cardGrad)" stroke="#f43f5e" stroke-width="1.2" />
+      <text x="87" y="29" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f8fafc">🚀 RAW &amp; Offline Tools</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Highlights -->
+  <g transform="translate(600, 360)">
+    <text x="0" y="0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#64748b" letter-spacing="0.5">
+      📷 Photoshop Elements • Pixelmator Pro • Affinity • GIMP • Krita • Darktable • Upscayl • RawTherapee
+    </text>
+  </g>
+</svg>

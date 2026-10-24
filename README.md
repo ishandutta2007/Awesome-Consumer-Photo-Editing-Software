@@ -1,142 +1,151 @@
-# Awesome-Consumer-Photo-Editing-Software
-
-## Top Consumer Photo Editing Software Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Accessible Photo Retouching, One-Time Purchases & Self-Hosted Editing Tools*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Consumer Photo Editing Software**. These tools help everyday photographers and hobbyists enhance images—cropping, retouching, applying filters, and creating composites—without the complexity or cost of professional suites like Photoshop or Capture One.
-
-
-
-**Examples** include Adobe Photoshop Elements, Corel PaintShop Pro, CyberLink PhotoDirector, Affinity Photo, GIMP, Paint.NET, and Pixelmator Pro (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding subscriptions, and controlling the editing pipeline. The open-source landscape is anchored by **GIMP** (the full-featured raster editor), **Paint.NET** (the Windows-only accessible editor), and **Krita** (the digital painting specialist), with **Darktable** and **RawTherapee** serving RAW-focused consumers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global photo editing software market is valued at approximately $1.2B to $12B+ (growing at a CAGR of 5%–10%), driven by rapid adoption of mobile content creation, social media photography, and generative AI workflows. The sector exhibits a distinct hybrid concentration structure: highly concentrated and oligopolistic at the professional desktop tier (dominated by Adobe with >40%–60% market share), yet moderately to heavily fragmented across consumer, web, and mobile tiers where specialized AI tools, accessible desktop suites, and open-source solutions compete actively for consumer attention.
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-| Product | Description | Company Scale (Valuation / Revenue) | Pricing | Free Tier Limit |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Pixelmator Pro](https://apps.apple.com/app/pixelmator-pro/id1289583905)** | Mac-only professional photo editor with machine learning enhancements. | **$5.07 Trillion** Market Cap (Parent: Apple Inc.) | **$49.99** one-time purchase on Mac App Store (or **$12.99/mo** / **$129/yr** via Apple Creator Studio bundle) | **No permanent free tier**; 1-month free trial available via Apple Creator Studio subscription (Mac App Store direct purchase has no free trial) |
-| **[Adobe Photoshop Elements 2026](https://www.adobe.com/products/photoshop-elements.html)** | Consumer-friendly photo editor with guided edits, AI enhancements, and a 3-year license. | **~$102 Billion** Market Cap (Adobe Inc.) | **$99.99** one-time (3-year term non-renewing license) or **$149.99** bundled with Premiere Elements | **No permanent free tier**; 7-day fully functional free trial with full feature access and no credit card required |
-| **[Affinity Photo (now free)](https://affinity.serif.com/)** | **Now completely free.** Professional-grade photo editor unified with Designer and Publisher into a single app. | **~$35 Billion** Valuation (Parent: Canva) | **Free** ($0.00 forever; Canva unified Affinity Photo, Designer, and Publisher with full capabilities) | **Free forever with no feature limits**: 100% full desktop access across Mac/Windows/iPad with unlimited exports and zero expiration |
-| **[Corel PaintShop Pro](https://www.paintshoppro.com/)** | Windows photo editor with layers, RAW support, and one-time purchase. | **~$1 Billion+** Valuation / ~$180M+ Rev (Alludo / KKR) | **$79.99** one-time (PaintShop Pro standard tier) or **$99.99** for Ultimate edition | **No permanent free tier**; 30-day fully functional free trial with full feature access and no watermark |
-| **[CyberLink PhotoDirector 2026](https://www.cyberlink.com/)** | Consumer photo editor with AI tools, layers, and subscription or perpetual options. | **~$142 Million** Market Cap (CyberLink Corp., TPE: 5203) | **$39.99/yr** (PhotoDirector 365 starting plan) or **€99.99** ($99.99) one-time perpetual license | **Permanent free tier limited**: Desktop Essential allows max 2 photo exports/day in Expert mode with premium AI tools disabled from export; 30-day promotional trial for full 365 |
-| **[Skylum Luminar Neo](https://skylum.com/luminar)** | AI-powered photo editor with sky replacement, relighting, and creative tools. | **~$50–$60 Million** Valuation / ~$18M Rev (Skylum) | **$11.95/mo** or **$79/yr** starting tier (or **$199** one-time perpetual license) | **No permanent free tier**; 7-day fully functional free trial with complete access to core tools and extensions |
-| **[DxO PhotoLab Essential](https://shop.dxo.com/)** | RAW photo editor with optical corrections and denoising. | **~$50 Million** Valuation / ~$16M Rev (DxO Labs) | **$139** one-time (PhotoLab Essential edition) or **$229** one-time for Elite edition | **No permanent free tier**; 30-day unrestricted free trial with all Elite features fully unlocked and no credit card required |
-| **[ON1 Effects 2026](https://www.on1.com/products/effects/)** | Effects plugin and standalone editor with filters, presets, and AI tools. | **~$10–$15 Million** Valuation / ~$3.5M Rev (ON1, Inc.) | **$59.99** one-time purchase (standalone/plugin tier; discounted from $69.99 regular price) | **No permanent free tier**; 30-day fully functional free trial with zero watermark and no credit card required |
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[GIMP](https://github.com/GNOME/gimp)** [![GitHub Stars](https://img.shields.io/github/stars/GNOME/gimp?style=social&color=white)](https://github.com/GNOME/gimp/stargazers)  
-
-  **The full-featured open-source standard.** GPL-3.0 licensed. **GIMP 3.0** brought non-destructive editing for most filters, improved PSD export, and support for JPEG XL and other modern formats . **Strengths**: comprehensive toolset comparable to Photoshop, massive plugin ecosystem, and cross-platform support. **Trade-offs**: interface differs significantly from commercial tools; some workflows (like adjustment layers) remain less polished. Best for consumers wanting a complete editor without any subscription or feature paywalls.
-
-
-
-- **[Paint.NET](https://github.com/paintdotnet/paint.net)** [![GitHub Stars](https://img.shields.io/github/stars/paintdotnet/paint.net?style=social&color=white)](https://github.com/paintdotnet/paint.net/stargazers)  
-
-  **The accessible Windows editor.** Free for personal use, Windows-only. **Strengths**: significantly easier to learn than GIMP; clean interface with layers, unlimited undo, and a rich plugin ecosystem. **Trade-offs**: Windows-only; less capable than GIMP for advanced workflows. Best for Windows users wanting a straightforward, capable editor without complexity.
-
-
-
-- **[Krita](https://github.com/KDE/krita)** [![GitHub Stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
-
-  **The digital painting specialist.** GPL-3.0 licensed. **Strengths**: powerful brush engine, animation timeline, and vector tools—ideal for illustrators and digital artists. **Trade-offs**: not designed for photo retouching workflows; interface oriented toward painting from scratch. Best for consumers whose editing leans artistic rather than photographic.
-
-
-
-- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
-
-  **The open-source RAW workflow.** GPL-3.0 licensed. Non-destructive editing with a scene-referred pipeline, built-in catalog, and tethered shooting. **Trade-offs**: steeper learning curve; module names borrow from image science rather than photography. Best for consumers shooting RAW who want a Lightroom-like workflow without subscription fees.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **RawTherapee** — Open-source RAW converter with granular sharpening controls and multiple demosaicing algorithms. Best paired with digiKam for cataloging.
-
-- **digiKam** — Open-source photo library manager with hierarchical keywords, face recognition, and metadata support. Best as the catalog layer in a free consumer stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Affinity Photo is now completely free**: Canva unified Affinity Photo, Designer, and Publisher into a single free app in late 2025—a major shift that removes the $69.99 one-time purchase barrier . This makes it the strongest free alternative to Photoshop for consumers.
-
-- **Adobe Photoshop Elements uses a 3-year term license**: the $99.99 purchase expires after three years and is non-renewing—unlike a perpetual license . Factor renewal costs into long-term budgeting.
-
-- **Pricing varies by region and currency**: CyberLink lists €99.99 for PhotoDirector while regional stores may differ; Skylum's Luminar Neo pricing varies significantly by currency . Verify local pricing before purchasing.
-
-- **Open-source alternatives require no payment but may have learning curves**: GIMP and darktable are capable but less intuitive than consumer-focused commercial tools like Photoshop Elements or PaintShop Pro.
-
-
+# Awesome Consumer Photo Editing Software 📸🎨
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Consumer Photo Editing Software Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Consumer-Photo-Editing-Software?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Consumer-Photo-Editing-Software?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Consumer-Photo-Editing-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🌟 Top Consumer Photo Editing Software Ecosystem
 
+> **Curated List of SaaS Platforms & Open-Source GitHub Projects for Photo Editing, AI Retouching, and Graphic Design**  
+> *Focused on accessible photo enhancement, one-time purchases, self-hosted tools, and avoiding subscription lock-in.*  
+> **📅 Last updated: October 2026**
 
-**Made for hobbyist photographers, casual editors, and anyone who wants to enhance photos without a subscription.**  
+Welcome to the definitive, SEO-optimized directory of **consumer photo editing software**, **RAW processing workflows**, **AI-assisted image upscaling tools**, and **free raster graphics suites**. Whether you are an enthusiast photographer, digital content creator, social media influencer, or casual shutterbug, this curated repository brings together the best commercial software (with explicit pricing and trial terms) and battle-tested open-source alternatives.
 
-Let's make consumer photo editing more open, accessible, and affordable.
+### 🔍 Quick Highlights
+- 🏆 **Category Leaders**: Adobe Photoshop Elements, Pixelmator Pro, Canva Affinity Photo, Corel PaintShop Pro, and DxO PhotoLab.
+- 🆓 **100% Free Professional Suites**: Affinity Photo (freed by Canva in late 2025) and classic FOSS powerhouses like GIMP, Krita, and darktable.
+- 🤖 **AI-Native Enhancers**: Next-generation neural upscalers and node-based image transformation pipelines like Upscayl and chaiNNer.
+- 📦 **Perpetual & Non-Subscription**: Transparent pricing tiers to help creators budget without surprise monthly recurring charges.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💻 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global photo editing software market is valued at approximately **$1.2B to $12B+** (expanding at a compound annual growth rate of **5%–10%**), stimulated by explosive growth in mobile photography, social media visual marketing, and generative AI features. 
+
+The industry displays a **hybrid market structure**:
+1. **Professional Desktop Tier (Highly Concentrated / Oligopolistic)**: Anchored by Adobe (>40%–60% professional market share) along with established studio brands like Corel, CyberLink, and DxO.
+2. **Consumer, Web & Mobile Tier (Moderately to Heavily Fragmented)**: Highly dynamic with intense competition among browser-based suites, AI retouching startups, native desktop applications, and thriving open-source communities.
+
+---
+
+## 💻 SaaS & Commercial Platforms
+
+All pricing and free trial terms are verified against current tier offerings. SaaS suites are sorted in **descending order by company scale** (valuation or parent company market capitalization):
+
+| Product | Description | Company Scale (Valuation / Revenue) | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Pixelmator Pro](https://apps.apple.com/app/pixelmator-pro/id1289583905)** | Mac-only professional photo editor with machine learning enhancements, RAW editing, and metal acceleration. | **$5.07 Trillion** Market Cap (Parent: Apple Inc.) | **$49.99** one-time purchase on Mac App Store (or **$12.99/mo** / **$129/yr** via Apple Creator Studio bundle) | **No permanent free tier**; 1-month free trial available via Apple Creator Studio subscription (Mac App Store direct purchase has no free trial) |
+| **[Adobe Photoshop Elements 2026](https://www.adobe.com/products/photoshop-elements.html)** | Consumer-friendly photo editor with guided edits, AI enhancements, automated organizing, and a 3-year term license. | **~$102 Billion** Market Cap (Adobe Inc.) | **$99.99** one-time (3-year term non-renewing license) or **$149.99** bundled with Premiere Elements | **No permanent free tier**; 7-day fully functional free trial with full feature access and no credit card required |
+| **[Affinity Photo (now free)](https://affinity.serif.com/)** | **Now completely free.** Professional-grade photo editor unified with Designer and Publisher into a single powerhouse application. | **~$35 Billion** Valuation (Parent: Canva) | **Free** ($0.00 forever; Canva unified Affinity Photo, Designer, and Publisher with full capabilities) | **Free forever with no feature limits**: 100% full desktop access across Mac/Windows/iPad with unlimited exports and zero expiration |
+| **[Corel PaintShop Pro](https://www.paintshoppro.com/)** | Windows photo editor with adjustment layers, RAW support, HDR tools, and one-time perpetual purchase. | **~$1 Billion+** Valuation / ~$180M+ Rev (Alludo / KKR) | **$79.99** one-time (PaintShop Pro standard tier) or **$99.99** for Ultimate edition | **No permanent free tier**; 30-day fully functional free trial with full feature access and no watermark |
+| **[CyberLink PhotoDirector 2026](https://www.cyberlink.com/)** | Consumer photo editor with AI object removal, sky replacement, layers, and subscription or perpetual options. | **~$142 Million** Market Cap (CyberLink Corp., TPE: 5203) | **$39.99/yr** (PhotoDirector 365 starting plan) or **€99.99** ($99.99) one-time perpetual license | **Permanent free tier limited**: Desktop Essential allows max 2 photo exports/day in Expert mode with premium AI tools disabled from export; 30-day promotional trial for full 365 |
+| **[Skylum Luminar Neo](https://skylum.com/luminar)** | AI-powered creative photo editor featuring portrait retouching, generative erase, relighting, and sky replacement. | **~$50–$60 Million** Valuation / ~$18M Rev (Skylum) | **$11.95/mo** or **$79/yr** starting tier (or **$199** one-time perpetual license) | **No permanent free tier**; 7-day fully functional free trial with complete access to core tools and extensions |
+| **[DxO PhotoLab Essential](https://shop.dxo.com/)** | High-precision RAW photo editor with industry-leading optical lens corrections and DeepPRIME denoising. | **~$50 Million** Valuation / ~$16M Rev (DxO Labs) | **$139** one-time (PhotoLab Essential edition) or **$229** one-time for Elite edition | **No permanent free tier**; 30-day unrestricted free trial with all Elite features fully unlocked and no credit card required |
+| **[ON1 Effects 2026](https://www.on1.com/products/effects/)** | Creative effects plugin and standalone image editor loaded with filters, cinematic presets, and AI masking tools. | **~$10–$15 Million** Valuation / ~$3.5M Rev (ON1, Inc.) | **$59.99** one-time purchase (standalone/plugin tier; discounted from $69.99 regular price) | **No permanent free tier**; 30-day fully functional free trial with zero watermark and no credit card required |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Explore the finest free and open-source software (FOSS) alternatives to proprietary photo editing suites. Repositories are **sorted in descending order by GitHub star count**:
+
+- **[Upscayl](https://github.com/upscayl/upscayl)** [![GitHub Stars](https://img.shields.io/github/stars/upscayl/upscayl?style=social&color=white)](https://github.com/upscayl/upscayl/stargazers)  
+  ⚡ **The Free and Open Source AI Image Upscaler.** AGPL-3.0 licensed. Cross-platform desktop tool using deep learning models (Real-ESRGAN, Vulkan-accelerated) to sharpen, upscale, and restore low-resolution photos without cloud servers. Ideal for restoring compressed smartphone photos and historic prints locally.
+
+- **[darktable](https://github.com/darktable-org/darktable)** [![GitHub Stars](https://img.shields.io/github/stars/darktable-org/darktable?style=social&color=white)](https://github.com/darktable-org/darktable/stargazers)  
+  📷 **The Open-Source Photography Workflow & RAW Developer.** GPL-3.0 licensed. Non-destructive, scene-referred editing pipeline featuring tethered shooting, color calibration, and GPU acceleration. The premier open-source alternative to Adobe Lightroom.
+
+- **[Krita](https://github.com/KDE/krita)** [![GitHub Stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
+  🎨 **The Digital Painting & Creative Image Suite.** GPL-3.0 licensed. Renowned for its world-class brush engine, color management, vector layering, and non-destructive filter layers. Outstanding for creative compositing, retouching, and concept art.
+
+- **[GIMP](https://github.com/GNOME/gimp)** [![GitHub Stars](https://img.shields.io/github/stars/GNOME/gimp?style=social&color=white)](https://github.com/GNOME/gimp/stargazers)  
+  🖌️ **The Full-Featured GNU Image Manipulation Standard.** GPL-3.0 licensed. The quintessential Photoshop alternative. **GIMP 3.0** brings non-destructive editing, modern color management (GEGL), improved PSD handling, and support for modern formats like JPEG XL and WebP.
+
+- **[chaiNNer](https://github.com/chaiNNer-org/chaiNNer)** [![GitHub Stars](https://img.shields.io/github/stars/chaiNNer-org/chaiNNer?style=social&color=white)](https://github.com/chaiNNer-org/chaiNNer/stargazers)  
+  🔗 **Flowchart / Node-Based Image Processing Architecture.** GPL-3.0 licensed. Intuitive node-graph editor for chaining super-resolution models, face restoration, background removal, color grading, and batch photo adjustments.
+
+- **[RawTherapee](https://github.com/RawTherapee/RawTherapee)** [![GitHub Stars](https://img.shields.io/github/stars/RawTherapee/RawTherapee?style=social&color=white)](https://github.com/RawTherapee/RawTherapee/stargazers)  
+  🔬 **Granular RAW Photo Converter & Processing Pipeline.** GPL-3.0 licensed. Provides high-end demosaicing algorithms (AMaZE, RCD), advanced sharpening (RL deconvolution), and CIE Color Appearance Models for unmatched photo fidelity.
+
+- **[Pinta](https://github.com/PintaProject/Pinta)** [![GitHub Stars](https://img.shields.io/github/stars/PintaProject/Pinta?style=social&color=white)](https://github.com/PintaProject/Pinta/stargazers)  
+  ✏️ **Lightweight Cross-Platform Drawing and Image Retouching.** MIT licensed. Modeled after Paint.NET, offering a fast, clean interface with layers, unlimited undo history, and over 35 color adjustments and special effects.
+
+- **[Ansel](https://github.com/aurelienpierreeng/ansel)** [![GitHub Stars](https://img.shields.io/github/stars/aurelienpierreeng/ansel?style=social&color=white)](https://github.com/aurelienpierreeng/ansel/stargazers)  
+  🎞️ **Streamlined Scene-Referred RAW Photo Editor.** GPL-3.0 licensed. A focused fork of Darktable designed to simplify digital asset management and deliver robust, colorimetrically accurate color grading without bloat.
+
+- **[digiKam](https://github.com/KDE/digikam)** [![GitHub Stars](https://img.shields.io/github/stars/KDE/digikam?style=social&color=white)](https://github.com/KDE/digikam/stargazers)  
+  🗂️ **Professional Photo Management & Editing Suite.** GPL-2.0 licensed. Advanced digital asset manager featuring facial recognition, geolocation mapping, auto-tagging, and a comprehensive built-in image editor for batch adjustments.
+
+- **[PhotoFlare](https://github.com/PhotoFlare/photoflare)** [![GitHub Stars](https://img.shields.io/github/stars/PhotoFlare/photoflare?style=social&color=white)](https://github.com/PhotoFlare/photoflare/stargazers)  
+  ✨ **Simple Yet Powerful Community Image Editor.** GPL-3.0 licensed. Built on C++ and Qt, offering a clean, user-friendly interface inspired by PhotoFiltre with batch photo processing, filters, and color correction tools.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly encouraged! Help keep this directory current, accurate, and comprehensive:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/new-photo-tool`).
+3. 📝 **Add or update entries** following existing markdown formatting standards:
+   - For SaaS tools: include verified starting prices, parent valuation/revenue, and exact free trial / free tier terms.
+   - For open-source tools: include official GitHub repo link and stargazers social badge.
+4. 🚀 **Submit a Pull Request** with a descriptive summary of your updates.
+
+---
+
+## 💖 Support & Sponsor
+
+If you find this curated list valuable for discovering photo editing tools or escaping expensive software subscriptions, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve visibility for photographers worldwide.
+- 🍴 **Fork and share** with fellow creators, photographers, and developers.
+- ☕ **Buy a coffee & sponsor**: Support ongoing research and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the creative and open-source community! 🙌
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Consumer-Photo-Editing-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Consumer-Photo-Editing-Software&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an independent, **community-curated directory** provided for educational and comparison purposes.
+- **Affinity Photo Free Shift**: Serif's Affinity suite was acquired by Canva and transitioned to a permanently free unified desktop app in late 2025.
+- **Adobe Term Licenses**: Photoshop Elements purchases are issued on 3-year term licenses and expire after 36 months without automatic renewal.
+- **Regional Currency Nuances**: All listed prices reflect standard US/EU web pricing as of October 2026; localized regional discounts or tax rates may differ.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for photographers, casual editors, and everyone who loves creative freedom without subscription walls.</b>
+</p>
